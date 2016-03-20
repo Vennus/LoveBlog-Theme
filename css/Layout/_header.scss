@@ -1,0 +1,30 @@
+body{
+	font-family: 'beba';
+}
+header {
+	.navbar-default {
+	background: white;
+	border:none;
+	}
+	.navbar-brand {
+	padding: 0;
+	}
+	h1{
+		font-family: 'beba';
+		margin:0;
+		padding:18px 0 0;
+		color:#EA5F3E;
+			span{
+				color:#F3AF97;
+			}
+	}
+}
+.navbar-default {
+	.navbar-nav>li>a{
+		color:#BDBDBD;
+		padding-top:22px;
+			&:hover{
+				color: #EA5F3E;
+			}
+		}
+}

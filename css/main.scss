@@ -1,0 +1,116 @@
+@import "Layout/_header";
+@import "Layout/_footer";
+@import "layout/_base";
+@import "page/_about";
+@import "page/_blog";
+@import "page/_contact";
+@import "page/_portafolio";
+@font-face {
+  font-family: 'beba';
+  src: url('../font/bebas___-webfont.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+.container{
+	max-width: 1105px;
+}
+.bg-carousel{
+	.item{
+		width: 100%;
+	}
+
+}
+/*HEADER BACKGROUND DE FONDO */
+.header-bottom{
+	height: 50px;
+    background: #F1AE9D;
+    position: relative;
+    top: 81px;
+    z-index: -2;
+    margin-bottom: 122px;
+	.container{
+	    max-width: 1128px;
+	}
+	.text-title{
+	 	background: #EA5F3E;
+	    font-family: 'beba';
+	    color: white;
+	    position: relative;
+	    bottom: 20px;
+	    height: 50px;
+	    padding: 0 5px;
+	    border-left: 10px solid white;
+	    border-right:10px solid white;
+	}
+}
+/*FIN*/
+.home-description{
+	margin:2% 0;
+	h2{
+		text-align: left;
+		font-family: 'beba';
+		font-size: 1.3em;
+		color: #EA5F3E;
+		line-height: 30px;
+	}
+	p{
+		text-align:center;
+		text-align: left;
+		font-family: arial;
+		margin-bottom: 10%;
+	}
+	a{
+		background:#EA5F3E;
+		padding: 3% 5%;
+		text-decoration: none;
+		color:white;
+	}
+	.box-icon{
+		margin-bottom: 20px;
+		i{
+			font-size: 3.5em;
+			float:left;
+			color:#EA5F3E;
+			margin-right:18px; 
+		}
+		
+	}
+}
+
+.from-blog{
+	margin:4% 0;
+	h2{
+		color: #EA5F3E;
+		font-size: 1.3em;
+		margin-bottom: 2%;
+	}
+	.bg-line{
+			background:url('../images/heading-bg.png')repeat-x;
+			padding: 1%;
+    		position: relative;
+    		bottom: 44px;
+    		left: 130px;
+    		width: 84.5%;
+		}
+/*FLOMBLOG Y RECENT WORKS*/
+	.blog-post{
+		width: 220px;
+		border:1px solid #BDBDBD;
+		border-top:none;
+
+		h3{
+			margin-top: 4px;
+			padding:2% 4%;
+			font-family: 'beba';
+			color: #BDBDBD;
+			font-size: 1.3em;
+		}
+		h4{
+			padding: 0 4%;
+			font-family: 'beba';
+			color: #EA5F3E;
+			font-size: 1em;
+		}
+
+	}
+}

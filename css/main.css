@@ -1,0 +1,302 @@
+body {
+  font-family: 'beba'; }
+
+header .navbar-default {
+  background: white;
+  border: none; }
+header .navbar-brand {
+  padding: 0; }
+header h1 {
+  font-family: 'beba';
+  margin: 0;
+  padding: 18px 0 0;
+  color: #EA5F3E; }
+  header h1 span {
+    color: #F3AF97; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #BDBDBD;
+  padding-top: 22px; }
+  .navbar-default .navbar-nav > li > a:hover {
+    color: #EA5F3E; }
+
+footer {
+  background: #F1AE9D; }
+  footer .container {
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+    background: #E7663B;
+    color: white;
+    padding-bottom: 4%;
+    height: auto; }
+    footer .container h2 {
+      font-family: 'beba'; }
+    footer .container p {
+      font-family: Arial;
+      padding: 0 4%; }
+
+@font-face {
+  font-family: 'beba';
+  src: url("../font/bebas___-webfont.ttf");
+  font-weight: normal;
+  font-style: normal; }
+* {
+  font-family: 'beba'; }
+
+.about-us .author-img {
+  width: 30%;
+  float: left;
+  border: 1px solid black;
+  padding: 4px;
+  margin-right: 3%;
+  margin-bottom: 3%; }
+.about-us p {
+  font-family: Arial;
+  padding-bottom: 3%;
+  padding-right: 3%; }
+.about-us p:nth-child(5) {
+  padding-top: 3%; }
+.about-us .post-quote {
+  border-left: 8px solid #E66839;
+  margin-left: 8%; }
+  .about-us .post-quote p {
+    padding-left: 4%;
+    color: #E66839;
+    padding-bottom: 0; }
+.about-us .gallery-container {
+  padding-left: 8px;
+  width: 280px; }
+  .about-us .gallery-container img {
+    margin-bottom: 15px;
+    margin-right: 6px;
+    border: 1px solid #E66839; }
+
+.single-sidebar h2 {
+  background: url("../images/heading-bg.png") repeat-x scroll 0 0 transparent;
+  color: #E8603C;
+  font-family: 'bebas';
+  font-size: 15px;
+  margin-left: 110px;
+  padding: 2%; }
+  .single-sidebar h2 span {
+    margin-left: -110px; }
+.single-sidebar a {
+  list-style: none;
+  color: black;
+  text-decoration: none; }
+
+.blog .icons {
+  background: url(../images/icon1.png) no-repeat;
+  left: -78px;
+  position: absolute;
+  height: 75px;
+  width: 75px; }
+.blog .row:nth-child(4) .icons {
+  background: url(../images/icon2.png) no-repeat;
+  left: -95px;
+  position: absolute;
+  height: 75px;
+  width: 75px; }
+.blog .row:nth-child(5) .icons {
+  background: url(../images/icon3.png) no-repeat;
+  left: -95px;
+  position: absolute;
+  height: 75px;
+  width: 75px; }
+.blog .row:nth-child(6) .icons {
+  background: url(../images/icon4.png) no-repeat;
+  left: -95px;
+  position: absolute;
+  height: 75px;
+  width: 75px; }
+.blog .row:nth-child(7) .icons {
+  background: url(../images/icon5.png) no-repeat;
+  left: -90px;
+  position: absolute;
+  height: 75px;
+  width: 75px; }
+.blog .featured-img {
+  width: 100%; }
+.blog .gallery-container {
+  padding-left: 8px;
+  width: 280px; }
+  .blog .gallery-container img {
+    margin-bottom: 15px;
+    margin-right: 6px;
+    border: 1px solid #E66839; }
+.blog h3 {
+  text-align: left;
+  font-family: 'beba';
+  font-size: 1em;
+  color: #EA5F3E;
+  line-height: 30px; }
+.blog h2 {
+  text-align: left;
+  font-family: 'beba';
+  font-size: 1.4em;
+  color: #EA5F3E;
+  line-height: 30px; }
+.blog p {
+  text-align: center;
+  text-align: left;
+  font-family: arial;
+  margin-bottom: 10%; }
+  .blog p span {
+    color: #BDBDBD; }
+.blog .line-bg {
+  background: url(../images/post_border_bg.png) repeat;
+  height: 15px;
+  margin: 25px 0; }
+.blog .pagination-lg li a {
+  border-radius: 0px; }
+.blog nav a {
+  margin: 5px;
+  background: #E8603C;
+  color: white; }
+  .blog nav a:hover {
+    background: rgba(232, 96, 60, 0.75); }
+.blog .quote {
+  margin: 4% 1%;
+  background: #F4F4F4;
+  height: 100px;
+  padding: 4% 2% 0; }
+  .blog .quote p {
+    background: url(../images/quote.png) no-repeat;
+    padding-left: 40px; }
+.blog .attachment {
+  margin: 4% 1%; }
+  .blog .attachment small {
+    font-size: 1em;
+    font-family: Arial;
+    color: #BDBDBD; }
+
+.portafolio .portafolio-categ {
+  margin-bottom: 10%; }
+  .portafolio .portafolio-categ li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 1%;
+    color: #BBBBBB;
+    height: 20px; }
+.portafolio li:nth-child(1) {
+  color: black;
+  font-size: 1.5em; }
+.portafolio a {
+  text-decoration: none;
+  height: 30px;
+  color: #BBBBBB;
+  font-size: 1em;
+  padding: 10px 20px 5px; }
+  .portafolio a:hover {
+    background: #E8663C;
+    color: white; }
+.portafolio img {
+  width: 100%;
+  border: 1px solid #BBBBBB;
+  padding: 3px;
+  margin-bottom: 2px; }
+  .portafolio img:hover {
+    border: 1px solid #EA5F3E; }
+.portafolio .text-pic {
+  border: 1px solid #BBBBBB;
+  margin-bottom: 40px;
+  padding: 10px; }
+  .portafolio .text-pic h2 {
+    font-size: 1.3em;
+    color: #BBBBBB;
+    font-family: 'beba'; }
+  .portafolio .text-pic p {
+    font-size: 1em;
+    font-family: 'beba';
+    color: #EA5F3E; }
+
+@font-face {
+  font-family: 'beba';
+  src: url("../font/bebas___-webfont.ttf");
+  font-weight: normal;
+  font-style: normal; }
+.container {
+  max-width: 1105px; }
+
+.bg-carousel .item {
+  width: 100%; }
+
+/*HEADER BACKGROUND DE FONDO */
+.header-bottom {
+  height: 50px;
+  background: #F1AE9D;
+  position: relative;
+  top: 81px;
+  z-index: -2;
+  margin-bottom: 122px; }
+  .header-bottom .container {
+    max-width: 1128px; }
+  .header-bottom .text-title {
+    background: #EA5F3E;
+    font-family: 'beba';
+    color: white;
+    position: relative;
+    bottom: 20px;
+    height: 50px;
+    padding: 0 5px;
+    border-left: 10px solid white;
+    border-right: 10px solid white; }
+
+/*FIN*/
+.home-description {
+  margin: 2% 0; }
+  .home-description h2 {
+    text-align: left;
+    font-family: 'beba';
+    font-size: 1.3em;
+    color: #EA5F3E;
+    line-height: 30px; }
+  .home-description p {
+    text-align: center;
+    text-align: left;
+    font-family: arial;
+    margin-bottom: 10%; }
+  .home-description a {
+    background: #EA5F3E;
+    padding: 3% 5%;
+    text-decoration: none;
+    color: white; }
+  .home-description .box-icon {
+    margin-bottom: 20px; }
+    .home-description .box-icon i {
+      font-size: 3.5em;
+      float: left;
+      color: #EA5F3E;
+      margin-right: 18px; }
+
+.from-blog {
+  margin: 4% 0;
+  /*FLOMBLOG Y RECENT WORKS*/ }
+  .from-blog h2 {
+    color: #EA5F3E;
+    font-size: 1.3em;
+    margin-bottom: 2%; }
+  .from-blog .bg-line {
+    background: url("../images/heading-bg.png") repeat-x;
+    padding: 1%;
+    position: relative;
+    bottom: 44px;
+    left: 130px;
+    width: 84.5%; }
+  .from-blog .blog-post {
+    width: 220px;
+    border: 1px solid #BDBDBD;
+    border-top: none; }
+    .from-blog .blog-post h3 {
+      margin-top: 4px;
+      padding: 2% 4%;
+      font-family: 'beba';
+      color: #BDBDBD;
+      font-size: 1.3em; }
+    .from-blog .blog-post h4 {
+      padding: 0 4%;
+      font-family: 'beba';
+      color: #EA5F3E;
+      font-size: 1em; }
+
+/*# sourceMappingURL=main.css.map */
